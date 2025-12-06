@@ -1,6 +1,6 @@
 # LVMND Project Portofolio
 
-Welcome to **LVMND Project Portofolio** — your gateway to [short tagline about purpose].
+Welcome to **LVMND Project Portofolio**.
 
 This page provide my journey as bioinformaticians.
 
