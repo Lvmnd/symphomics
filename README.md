@@ -1,6 +1,6 @@
 # Symphomics - Lvmnd Project Portofolio
 
-Welcome to **Lvmnd Project Portofolio**.
-Symohomics is my compilation code repository to arrange bioinformatics and data analysis melody.
+Welcome to **Lvmnd Project**.
+Symohomics is one of analysis facilities that help people to analyze their genomic-medical data.
 
 Made with full of personal love (no one influence me)
