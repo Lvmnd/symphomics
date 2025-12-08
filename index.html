@@ -1,62 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Symphomics</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <!-- Header Content -->
-    <header>
-      <h1>Symphomics</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Analysis</a></li>
-          <li><a href="#">Consultation</a></li>
-          <li><a href="#">Workflow</a></li>
-          <li><a href="#">Download</a></li>
-          <li><a href="#">About</a></li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Symphomics Healthcare</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<header class="navbar">
+  <div class="logo-area">
+    <div class="logo">Symphomics</div>
+    <p class="sub-tagline">A part of SCCR Indonesia</p>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experts">Experts</a></li>
+      <li><a href="#appointment">Appointment</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Advanced Healthcare & Bioinformatics Solutions</h1>
+      <p>
+        Bringing precision, innovation, and compassion together to improve
+        clinical research, diagnostics, and medical outcomes.
+      </p>
+      <a href="#services" class="btn-primary">Explore Services</a>
+    </div>
+  </section>
+
+
+  <!-- SERVICES SECTION -->
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <p class="section-description">
+      Symphomics provides a comprehensive suite of analytical and clinical support
+      services tailored for research institutions, hospitals, and medical centers.
+    </p>
+
+    <div class="service-grid">
+
+      <div class="service-card">
+        <h3>Clinical Data Analysis</h3>
+        <p>
+          High-accuracy statistical modeling for clinical trials, epidemiological
+          studies, and healthcare outcome assessments.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Bioinformatics Pipelines</h3>
+        <p>
+          Complete workflows for NGS, genomics, transcriptomics, proteomics,
+          and structural biology.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Healthcare Workflow Automation</h3>
+        <p>
+          Custom-built automated tools to streamline laboratory, diagnostic,
+          and research processes.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Medical Imaging Analysis</h3>
+        <p>
+          AI-driven radiology image interpretation and segmentation support.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Consultation & Training</h3>
+        <p>
+          Expert guidance for researchers, clinicians, and medical practitioners.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Health Informatics Integration</h3>
+        <p>
+          Secure integration of EHR data, predictive modeling, and clinical dashboards.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <div class="about-text">
+        <h2>About Symphomics</h2>
+        <p>
+          Founded in 2025, Symphomics is a multidisciplinary healthcare analytics
+          and bioinformatics center dedicated to advancing medical innovation.
+          Our team combines clinical expertise, computational biology,
+          and advanced data science to deliver solutions that empower
+          healthcare professionals worldwide.
+        </p>
+
+        <ul class="about-list">
+          <li>✔ Cutting-edge research & analytical tools</li>
+          <li>✔ Trusted by hospitals and global laboratories</li>
+          <li>✔ Secure, compliant, and ethical data handling</li>
+          <li>✔ Personalized support and consultations</li>
         </ul>
-      </nav>
-    </header>
-    <!-- Main Content -->
-    <main>
-      <!-- Hero Section -->
-      <section class="hero">
-        <h1>Welcome to My Code Diary</h1>
-        <p>Your go-to source for statistical analysis, bioinformatics, interpretation and data visualization!</p>
-        <a href="#latest-posts" class="btn">Explore Posts</a>
-      </section>
+      </div>
 
-      <!-- Featured Posts Section -->
-      <section id="featured-posts">
-        <h2>Featured Posts</h2>
-        <div class="post-grid">
-          <article>
-            <img src="images/featured1.jpg" alt="Content Cover" />
-            <h3>Top 10 Most Advance Research Topic in 2025</h3>
-            <p>A list of must-research study for every researcher.</p>
-            <a href="#">Read More</a>
-          </article>
-          <article>
-            <img src="images/featured.jpg" alt="Content Cover" />
-            <h3>Beginner's Guide to Bioinformatics</h3>
-            <p>Start your journey in Bioinformatics with these tips.</p>
-            <a href="#">Read More</a>
-          </article>
-        </div>
-      </section>
-    </main>
+      <div class="about-image">
+        <img src="images/hero-healthcare2.jpg" alt="Healthcare" />
+      </div>
+    </div>
+  </section>
 
-    <!-- Back to Top Button -->
-    <button id="back-to-top">⬆</button>
 
-    <!-- Footer -->
-    <footer>
-      <p>&copy; 2026 Lievia-Sebastian Lab. All rights reserved.</p>
-    </footer>
-  </body>
+  <!-- WHY CHOOSE US -->
+  <section class="why-choose">
+    <h2>Why Choose Symphomics?</h2>
+    <div class="why-grid">
+
+      <div class="why-card">
+        <h3>Precision & Accuracy</h3>
+        <p>
+          Our workflows ensure the highest reliability for clinical and research data.
+        </p>
+      </div>
+
+      <div class="why-card">
+        <h3>Trusted Experts</h3>
+        <p>
+          Each project is supported by certified analysts, clinicians, and scientists.
+        </p>
+      </div>
+
+      <div class="why-card">
+        <h3>Fast Turnaround</h3>
+        <p>
+          Efficient processing pipelines designed to meet urgent medical demands.
+        </p>
+      </div>
+
+      <div class="why-card">
+        <h3>Secure Systems</h3>
+        <p>
+          HIPAA-compliant infrastructure for patient safety and privacy.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- STATISTICS SECTION -->
+  <section class="stats">
+    <h2>Our Impact</h2>
+    <div class="stats-grid">
+
+      <div class="stat-card">
+        <h3>25+</h3>
+        <p>Medical Specialists</p>
+      </div>
+
+      <div class="stat-card">
+        <h3>30K+</h3>
+        <p>Patients & Samples Analyzed</p>
+      </div>
+
+      <div class="stat-card">
+        <h3>100%</h3>
+        <p>Client Satisfaction</p>
+      </div>
+
+      <div class="stat-card">
+        <h3>50+</h3>
+        <p>Healthcare Partners</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- EXPERTS SECTION -->
+  <section class="experts" id="experts">
+    <h2>Meet Our Specialists</h2>
+    <div class="expert-grid">
+
+      <div class="expert-card">
+        <img src="images/doc1.jpg" alt="Doctor">
+        <h3>Faheem Ahmed Khan, Ph.D.</h3>
+        <p>Senior Genomics Scientist</p>
+      </div>
+
+      <div class="expert-card">
+        <img src="images/doc2.jpg" alt="Doctor">
+        <h3>dr. Jutadi, MBBS</h3>
+        <p>Clinical Specialist</p>
+      </div>
+
+      <div class="expert-card">
+        <img src="images/doc3.jpg" alt="Doctor">
+        <h3>Dendi Krisna Nugraha, Ph.D.</h3>
+        <p>Senior Molecular Biology Scientist</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <h2>What Our Clients Say</h2>
+
+    <div class="testimonial-grid">
+
+      <div class="testimonial-card">
+        <p>
+          “Symphomics improved our research workflow tremendously. Their
+          statistical accuracy is unmatched.”
+        </p>
+        <span>- Dr. Ramos, Clinical Researcher</span>
+      </div>
+
+      <div class="testimonial-card">
+        <p>
+          “Their consultations helped our hospital integrate bioinformatics tools
+          seamlessly into diagnostics.”
+        </p>
+        <span>- Hospital Administrator</span>
+      </div>
+
+      <div class="testimonial-card">
+        <p>
+          “Fast, reliable, and professional service. Highly recommended for any
+          healthcare institution.”
+        </p>
+        <span>- Research Laboratory Director</span>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- APPOINTMENT SECTION -->
+  <section class="appointment" id="appointment">
+    <h2>Book an Appointment</h2>
+
+    <div class="appointment-inner">
+
+      <div class="appointment-info">
+        <p>
+          Need consultation? Our experts are ready to assist you with patient data,
+          research projects, workflow automation, and medical analysis.
+        </p>
+        <ul>
+          <li>✔ Online and In-person Sessions</li>
+          <li>✔ Personalized Project Assistance</li>
+          <li>✔ Secure Data Handling</li>
+        </ul>
+      </div>
+
+      <form class="appointment-form">
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Email" />
+        <input type="text" placeholder="Subject" />
+        <textarea placeholder="Message"></textarea>
+        <button type="submit" class="btn-primary">Submit Request</button>
+      </form>
+
+    </div>
+  </section>
+
+
+  <!-- FAQ SECTION -->
+  <section class="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>How long does analysis take?</h3>
+        <p>
+          Turnaround time varies by project, but most analyses are completed
+          within 3–7 business days.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Do you support hospitals internationally?</h3>
+        <p>Yes, we work with medical institutions globally.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Can I request custom workflows?</h3>
+        <p>Absolutely — we build tailored solutions for unique research needs.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BLOG PREVIEW -->
+  <section class="blog">
+    <h2>Latest Articles</h2>
+    <div class="blog-grid">
+
+      <article class="blog-card">
+        <h3>Top Medical Research Trends of 2026</h3>
+        <p>
+          Explore emerging discoveries in personalized medicine, AI diagnostics,
+          and genomic analysis.
+        </p>
+        <a href="#">Read More →</a>
+      </article>
+
+      <article class="blog-card">
+        <h3>Understanding NGS for Beginners</h3>
+        <p>
+          A friendly introduction to sequencing workflows and best practices.
+        </p>
+        <a href="#">Read More →</a>
+      </article>
+
+      <article class="blog-card">
+        <h3>The Future of Healthcare Informatics</h3>
+        <p>
+          How data integration is reshaping hospitals across the world.
+        </p>
+        <a href="#">Read More →</a>
+      </article>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer id="contact">
+    <p>© 2025 LVMND Labworks. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
