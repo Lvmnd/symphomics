@@ -1,4 +1,4 @@
-# Symphomics - Lvmnd Project Portofolio
+# Symphomics - Lvmnd Project Prototype
 
 Welcome to **Lvmnd Project**.
 Symohomics is one of analysis facilities that help people to analyze their genomic-medical data.
