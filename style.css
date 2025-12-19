@@ -134,6 +134,73 @@ body {
 }
 
 /* -----------------------------
+   HAMBURGER ANIMATION
+--------------------------------*/
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.menu-toggle span {
+  height: 3px;
+  width: 26px;
+  background: #333;
+  margin: 5px 0;
+  border-radius: 3px;
+  transition: all 0.35s ease;
+}
+
+/* Animate hamburger to X */
+.menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* -----------------------------
+   MOBILE NAV SLIDE ANIMATION
+--------------------------------*/
+@media (max-width: 768px) {
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  nav {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li a {
+    padding: 16px 24px;
+    display: block;
+  }
+
+  nav.active {
+    max-height: 500px; /* enough for menu items */
+  }
+}
+
+/* -----------------------------
    HERO SECTION
 --------------------------------*/
 .hero {
