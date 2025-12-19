@@ -25,18 +25,20 @@ window.addEventListener("scroll", () => {
 });
 
 /* ---------------------------------------------------
-   MOBILE NAV TOGGLE
+   MOBILE NAV TOGGLE (ANIMATED)
 ----------------------------------------------------- */
 const menuToggle = document.getElementById("menu-toggle");
 const navMenu = document.getElementById("nav-menu");
 
 menuToggle.addEventListener("click", () => {
+  menuToggle.classList.toggle("active");
   navMenu.classList.toggle("active");
 });
 
 /* Close menu when clicking a link */
 document.querySelectorAll("#nav-menu a").forEach(link => {
   link.addEventListener("click", () => {
+    menuToggle.classList.remove("active");
     navMenu.classList.remove("active");
   });
 });
